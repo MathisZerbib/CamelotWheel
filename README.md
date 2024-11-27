@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Camelot Wheel Tool
+
+## Overview
+
+The Camelot Wheel Tool is an interactive web application designed for DJs and music producers to facilitate harmonic mixing. Built with Next.js, this tool provides a visual representation of the Camelot System, enabling users to easily identify compatible musical keys for smooth transitions between tracks.
+
+## Features
+
+- Interactive Camelot Wheel visualization
+- Selection of keys with highlighted compatible options
+- Detailed mixing information for selected keys
+- Responsive design for various screen sizes
+- Energy change, subtle mix, and perfect fifth transition suggestions
+
+## Technology Stack
+
+- **Next.js**: React framework for production
+- **React**: JavaScript library for building user interfaces
+- **TypeScript**: Superset of JavaScript with static typing
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js (version 14 or later)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/yourusername/camelot-wheel-tool.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd camelot-wheel-tool
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install or yarn install
+    ```
+
+
+### Running the Development Server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The Camelot Wheel is displayed on the main page.
+Click on any key in the wheel to select it.
+Compatible keys will be highlighted, and mixing information will be displayed below the wheel.
+Use the mixing suggestions to plan your transitions between tracks.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### Customization
+You can customize the appearance of the Camelot Wheel by modifying the CamelotWheel.tsx component. Adjust colors, sizes, and layouts to fit your preferences.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+License
+This project is open source and available under the MIT License.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Learn More
+To learn more about the technologies used in this project:
+Next.js Documentation
+React Documentation
+TypeScript Documentation
+Tailwind CSS Documentation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Deployment
+This project is ready for deployment on Vercel, Netlify, or any other hosting platform that supports Next.js applications.
+
+### License
+This project is open source and available under the MIT License.
+
+### Acknowledgements
+This project was inspired by the Camelot Wheel system developed by Mark Davis.
+The Camelot Wheel Tool was created by Mathis Zerbib.
+
+
+### Contact
+For any questions or feedback, please open an issue in the GitHub repository or contact me at mathis.zerbib@gmail.com.
