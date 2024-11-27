@@ -32,16 +32,6 @@ export default function Home() {
             selectedKey={selectedKey}
             onKeySelect={setSelectedKey}
           />
-          {/* {selectedKey ? (
-            <MixingInfo
-              selectedKey={selectedKey}
-              compatibleKeys={compatibleKeys}
-            />
-          ) : (
-            <p className="text-center mt-4 text-gray-600">
-              Click on a key in the Camelot Wheel to see harmonic mixing options
-            </p>
-          )} */}
         </CardContent>
       </Card>
       <footer className="absolute bottom-0 w-full text-center pb-4">
